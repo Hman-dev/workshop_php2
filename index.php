@@ -13,7 +13,8 @@ $fellowshipRing = 9;
 
 // echo $fellowshipRing." membres compose la compagnie";
 
-$fingerRing = True;
+$fingerRing = false;
+echo var_export($fingerRing). "<br>";
 
 $wearRing = "Bilbon Sacquet";
 echo "<strong>$wearRing</strong>: " ."Celui qui porte maintenant l'anneau"."<br>";
@@ -31,7 +32,7 @@ echo $middleEath.'<br>';
 
 echo 'Le porteur est '.$wearRing.'<br>';
 
-$NewVariable = 'Le porteur est '.$wearRing;
+$NewVariable = "L'anneau est porté par $wearRing";
 echo $NewVariable." et $inventorRing ,le recherche"."<br>";
 
 echo strtoupper($inventorRing)."<br>";
